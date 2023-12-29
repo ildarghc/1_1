@@ -1,5 +1,8 @@
-num1, num2 = 5, 3
-sum = num1 + num2
-print(sum)
-result = num1 * num2 + sum
-print(result)
+name = 'Ильдар'
+print(name)
+age = 42
+print(age)
+age = age + 1
+print(age)
+is_student = True
+print(is_student)
