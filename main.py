@@ -1,6 +1,11 @@
-immutable_var = (1, 0.5, 'i')
-print(immutable_var)
-# Значения элементов кортежа нельзя изменить по определению, т.к. кортеж предполагает список, который нельзя изменить
-mutable_list = [1, 0.5, 'i']
-mutable_list.append('mutator')
-print(mutable_list)
+my_list = ['мандарины', 'яблоки', 'груши']
+print(my_list)
+print(my_list[0])
+print(my_list[-1])
+print(my_list[2:4])
+my_list[2] = 'стринги'
+print(my_list)
+my_dict = {'my': 'мой', 'list': 'список', 'strings': 'строки'}
+print(my_dict)
+my_dict['strings'] = 'стринги'
+print(my_dict)
